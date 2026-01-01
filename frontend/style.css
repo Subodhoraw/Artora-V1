@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0b0b0b;
+    color: #f3f3f3;
+    font-family: "Georgia", serif;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.artwork {
+    max-width: 90%;
+    max-height: 60vh;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+h1 {
+    margin-top: 24px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+p {
+    max-width: 620px;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 1.7;
+    opacity: 0.9;
+}
+
+.sound-btn {
+    margin: 20px auto;
+    padding: 12px 28px;
+    border-radius: 30px;
+    border: 1px solid #aaa;
+    background: transparent;
+    color: #f3f3f3;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.sound-btn:hover {
+    background: #f3f3f3;
+    color: #0b0b0b;
+}
+
+footer {
+    margin-top: 40px;
+    opacity: 0.6;
+    font-size: 13px;
+}
+
+.brand {
+    letter-spacing: 2px;
+}
+
+.fade-in {
+    animation: fadeIn 1.6s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
