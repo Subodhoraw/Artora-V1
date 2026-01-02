@@ -1,5 +1,5 @@
 from sqlalchemy import Column, String, Text
-from .database import Base
+from backend.database import Base
 
 class Artwork(Base):
     __tablename__ = "artworks"
